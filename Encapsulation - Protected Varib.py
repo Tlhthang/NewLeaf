@@ -1,7 +1,7 @@
 class Human:
     def __init__(self):
         #set default = high, not allow user enter
-        self._intelligence = 'high'
+        self._intelligence = 'high'#protected, only accessed by child class
 
 class Vietnamese(Human):
     def __init__(self, name):
