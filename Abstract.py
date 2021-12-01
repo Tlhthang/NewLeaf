@@ -20,3 +20,7 @@ class B2_Spirit(BasePlane):
     def yolo(self):
         print("This not gonna come out. Error")
 
+b = B2_Spirit()
+b.yolo()
+
+# gotta redefine fly-method in B2_spirit
