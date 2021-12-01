@@ -1,4 +1,4 @@
-#Method overiding
+#Method overriding
 class Vehicle:
     def showspeed(self):
         print("Faster than walking")
